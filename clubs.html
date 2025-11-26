@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Clubs</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="gwa.html">Grade Calculator</a>
+    <a href="clubs.html">Clubs</a>
+</div>
+
+<div class="container card">
+
+    <h1>School Club Information</h1>
+
+    <button py-click="art">Art Club</button>
+    <button py-click="vball">Volleyball</button>
+    <button py-click="monarch">Monarchs</button>
+    <button py-click="bball">Basketball</button>
+    <button py-click="glee">Glee Club</button>
+
+    <div id="output" style="margin-top:20px;"></div>
+
+    <py-script src="clubs.py"></py-script>
+
+</div>
+
+</body>
+</html>
